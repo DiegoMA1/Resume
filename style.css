@@ -192,6 +192,20 @@ p {
   height: 100%;
   background: #03a9f4;
 }
+.tag-container {
+  display: flex;
+  min-height: 30px;
+  gap: 10px;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.tag {
+  background: #6ac4eb;
+  padding: 10px;
+  border-radius: 50px;
+  border: 2px solid #03a9f4;
+  color: #616466;
+}
 @media (max-width: 1000px) {
   .container {
     margin: 10px;
