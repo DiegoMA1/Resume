@@ -156,6 +156,11 @@ p {
 .about .box .year-company {
   min-width: 150px;
 }
+.about .box .text {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
 .about .box .year-company h5 {
   text-transform: uppercase;
   color: #848c90;
@@ -170,7 +175,7 @@ p {
   position: relative;
   width: 100%;
   display: grid;
-  grid-template-columns: 150px 1fr;
+  grid-template-columns: 1fr 1.5fr;
   justify-content: center;
   align-items: center;
 }
@@ -191,6 +196,12 @@ p {
   left: 0;
   height: 100%;
   background: #03a9f4;
+}
+.skills .box .box-title {
+  display: flex;
+  justify-content: flex-start;
+  align-self: center;
+  gap: 10px;
 }
 .tag-container {
   display: flex;
